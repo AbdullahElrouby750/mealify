@@ -1,0 +1,135 @@
+:root:has(.mode:checked) .home {
+    background-color: var(--dark-mode-prime-bg);
+}
+
+:root:has(.mode:checked) .home-h1 {
+    color: white;
+}
+
+:root:has(.mode:checked) .home p {
+    color: var(--tertiary-color);
+}
+
+:root:has(.mode:checked) .book-tabel-btn {
+    background-color: var(--dark-mode-mealify-color);
+}
+
+:root:has(.mode:checked) .book-tabel-btn a {
+    color: black !important;
+}
+
+:root:has(.mode:checked) .watch-video-btn {
+    color: white;
+}
+
+:root:has(.mode:checked) .watch-video-btn i {
+    color: white;
+}
+
+:root:has(.mode:checked) .watch-video-btn a:hover {
+    color: var(--dark-mode-mealify-color);
+
+    i {
+        color: var(--dark-mode-mealify-color) !important;
+    }
+}
+
+
+:root:has(.mode:checked) .chefs-section {
+    background-color: var(--dark-mode-secondary-bg);
+}
+
+:root:has(.mode:checked) .chefs-section p, .chefs-section h4 {
+    color: white;
+}
+
+
+:root:has(.mode:checked) .gallery {
+    background-color: var(--dark-mode-prime-bg);
+}
+
+
+:root:has(.mode:checked) .contact {
+    background-color: var(--dark-mode-secondary-bg);
+}
+
+
+:root:has(.mode:checked) nav {
+    background-color: var(--nav-dark-mode);
+}
+
+
+:root:has(.mode:checked) .moon {
+    display: none;
+}
+
+
+:root:has(.mode:checked) .sun {
+    display: block !important;
+    color: white;
+}
+
+:root:has(.mode:checked) .title {
+    color: white;
+}
+
+:root:has(.mode:checked) .title span {
+    color: var(--dark-mode-mealify-color);
+}
+
+:root:has(.mode:checked) .contact-infos {
+    background-color: var(--dark-mode-secondary-bg);
+}
+
+:root:has(.mode:checked) .one-contact-info {
+    background-color: black;
+    border-color: var(--dark-mode-secondary-bg) !important;
+    color: white !important;
+}
+
+:root:has(.mode:checked) .contact-icon {
+    background-color: var(--dark-mode-mealify-color);
+    color: black;
+}
+
+:root:has(.mode:checked) .send-message {
+    background-color: var(--dark-mode-prime-bg);
+}
+
+:root:has(.mode:checked) .send-message button {
+    background-color: var(--dark-mode-mealify-color);
+    color: black !important;
+}
+
+:root:has(.mode:checked) .each-link i {
+    color: var(--dark-mode-mealify-color);
+}
+
+:root:has(.mode:checked) .subscribtion-form button {
+    background-color: var(--dark-mode-mealify-color);
+    color: black !important;
+}
+
+:root:has(.mode:checked) .subscribtion-form i {
+    color: black;
+}
+
+:root:has(.mode:checked) .section button:hover {
+    background-color: rgb(212, 142, 42);
+}
+
+:root:has(.mode:checked) .footer button:hover {
+    background-color: rgb(212, 142, 42);
+}
+
+:root:has(.mode:checked) .nav-title {
+    color: white;
+}
+
+:root:has(.mode:checked) .nav-title span {
+    color: var(--dark-mode-mealify-color);
+}
+
+:root:has(.mode:checked) nav ul a:hover {
+    color: white;
+}

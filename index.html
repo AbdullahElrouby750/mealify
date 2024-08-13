@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrab -->
+    <link rel="stylesheet" href="./css files/bootstrap.min.css" />
+
+    <!-- css files -->
+    <link rel="stylesheet" href="./css files/all.min.css" />
+    <link rel="stylesheet" href="./css files/rouby main.css" />
+    <link rel="stylesheet" href="./css files/alaa main.css" />
+    <link rel="stylesheet" href="./css files/dark mood.css" />
+    <link rel="stylesheet" href="./css files/media screen.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Mealify</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3">
+
+        
+        <input class="mode d-none" type="checkbox" id="darkmode" aria-checked="false">
+        <div class="Dark-mode-button position-fixed">
+            <label for="darkmode" class="switch">
+                <i class="fa-solid fa-moon moon fs-3 "></i>
+                <i class="fa-regular fa-sun sun d-none fs-3"></i>
+            </label>
+        </div>
+
+        <div class="container-fluid">
+          <a class="navbar-brand nav-title fs-2 fw-bold" href="#">Mealify<span>.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars fs-3"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <input type="radio" name="sections" id="section1" class = "d-none sec section1">
+                <label for="section1">
+                    <a class="fs-3 px-3 tertiary-color sec1" aria-current="page" href="#home">Home</a>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="radio" name="sections" id="section2" class = "d-none sec section2">
+                <label for="section2">
+                    <a class="fs-3 px-3 tertiary-color sec2" aria-current="page" href="#chefs">Chefs</a>
+                </label>
+              </li>
+              <li class="nav-item dropdown">
+                <input type="radio" name="sections" id="section3" class = "d-none sec section3">
+                <label for="section3">
+                    <a class="fs-3 px-3 tertiary-color sec3" aria-current="page" href="#gallery">Gallery</a>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="radio" name="sections" id="section4" class = "d-none sec section4">
+                <label for="section4">
+                    <a class="fs-3 px-3 tertiary-color sec4" aria-current="page" href="#contact">Contact</a>
+                </label>
+              </li>
+            </ul>
+        </div>  
+      </nav>
+
+
+    <!-- home -->
+    <div
+      class="home section d-flex row justify-content-around gap-4"
+        id="home">
+      <div class="booking col d-flex flex-column justify-content-center col-4">
+        <h2 class="amatic-sc-regular home-h1">
+          Enjoy Your Healthy Delicious Food
+        </h2>
+        <p>
+          Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+          eveniet. Eum quas beatae cumque eum quaerat.
+        </p>
+        <div class="btn-groub d-flex gap-3">
+          <button class="book-tabel-btn border-0">
+            <a href="#contact" class="btn btn-main text-white">Book a Table</a>
+          </button> 
+
+          <div class="watch-video-btn">
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              class="video-btn d-flex align-items-center row gap-1 h-100"
+            >
+              <div class="icon d-inline col-4 w-auto">
+                <i class="fa-solid fa-play col-4 mealify-color"></i>
+              </div>
+              Watch a Video</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="meal-img col-4 mb-5">
+        <img class="w-100 h-100" src="./assets/hero-img.png" alt="" />
+      </div>
+    </div>
+
+    <!-- chefs -->
+      <div
+      class="section chefs-section d-flex flex-column justify-content-center align-items-center"
+      id="chefs"
+    >
+      <div class="title pt-4 text-center">
+        <h6 class="tertiary-color">CHEFS</h6>
+        <p class="amatic-sc-regular fs-1">
+          Our <span class="mealify-color">Proffesional</span> Chefs
+        </p>
+      </div>
+      <div class="chefs-grid d-flex justify-content-around gap-xxl-5 gap-xl-5 gap-lg-4 gap-md-5 p-5">
+
+      <div class="every-chef d-flex flex-column justify-content-between align-items-center">
+        <div class="chef-img d-flex">
+          <img src="./assets/chefs-1.jpg" alt="chef 1" class="">
+          <ul class="social-box ">
+              <li>
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+        </div>
+      <div class="chef-info d-flex flex-column align-items-center m-3">
+        <h4>Walter White</h4> <!--name-->
+        <p class=" text-center">Master Chef</p> <!--title-->
+        <p class=" text-center">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p> <!--descripe-->
+      </div>
+      </div>
+
+
+      <div class="every-chef d-flex flex-column justify-content-between align-items-center">
+        <div class="chef-img d-flex">
+          <img src="./assets/chefs-2.jpg" alt="chef 2" class="">
+          <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+        </div>
+      <div class="chef-info d-flex flex-column align-items-center m-3">
+        <h4>Sarah Jhonson</h4> <!--name-->
+        <p class=" text-center">Patissier</p> <!--title-->
+        <p class=" text-center">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p> <!--descripe-->
+      </div>
+      </div>
+
+      
+      <div class="every-chef d-flex flex-column justify-content-between align-items-center">
+        <div class="chef-img d-flex">
+          <img src="./assets/chefs-3.jpg" alt="chef 3" class="">
+          <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+        </div>
+      <div class="chef-info d-flex flex-column align-items-center m-3">
+        <h4>William Anderson</h4> <!--name-->
+        <p class=" text-center">Cook</p> <!--title-->
+        <p class=" text-center">Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p> <!--descripe-->
+      </div>
+      </div>
+    </div>
+      
+    </div>
+
+
+    <!-- gallery -->
+    <div
+      class="section gallery d-flex flex-column justify-content-center align-items-center"
+      id="gallery"
+    >
+      <div class="title pt-4 text-center">
+        <h6 class="tertiary-color">GALLERY</h6>
+        <p class="amatic-sc-regular fs-1">
+          CHECK <span class="mealify-color">OUR GALLERY</span>
+        </p>
+      </div>
+
+      <div class="gallery-imgs pt-3 pb-3">
+        <div
+          class="one-img position-relative border border-5 border-white rounded-1 pic1"
+        >
+          <img class="w-100 h-100" src="./assets/meal-1.jpg" alt="" />
+          <div class="layer w-100 h-100 position-absolute">
+            <h2>Pizza</h2>
+            <p class="p-2 text-center">Hawaiian pizza with ham and pineapple</p>
+          </div>
+        </div>
+
+        <div
+          class="one-img position-relative border border-5 border-white rounded-1 pic2"
+        >
+          <img class="w-100 h-100" src="./assets/meal-2.jpg" alt="" />
+          <div class="layer w-100 h-100 position-absolute">
+            <h2>Beef steaks</h2>
+            <p class="p-2 text-center">
+              asty beef steaks flying above cast iron grate with fire flames.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="one-img position-relative border border-5 border-white rounded-1 pic3"
+        >
+          <img class="w-100 h-100" src="./assets/meal-3.jpg" alt="" />
+          <div class="layer w-100 h-100 position-absolute">
+            <h2>Burger</h2>
+            <p class="p-2 text-center">
+              grass fed bison hamburger with chips & beer
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="one-img position-relative border border-5 border-white rounded-1 pic4"
+        >
+          <img class="w-100 h-100" src="./assets/meal-4.jpg" alt="" />
+          <div class="layer w-100 h-100 position-absolute">
+            <h2>Levitation pizza</h2>
+            <p class="p-2 text-center">Levitation pizza on black background.</p>
+          </div>
+        </div>
+
+        <div
+          class="one-img position-relative border border-5 border-white rounded-1 pic5"
+        >
+          <img class="w-100 h-100" src="./assets/meal-5.jpg" alt="" />
+          <div class="layer w-100 h-100 position-absolute">
+            <h2>Crispy Fried Chicken</h2>
+            <p class="p-2 text-center">
+              Golden brown chicken legs with a crunchy coating and juicy meat
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="one-img position-relative border border-5 border-white rounded-1 pic6"
+        >
+          <img class="w-100 h-100" src="./assets/meal-6.jpg" alt="" />
+          <div class="layer w-100 h-100 position-absolute">
+            <h2>Lyulya kebab</h2>
+            <p class="p-2 text-center">
+              Tender and juicy skewers of ground lamb or beef, flavored with
+              aromatic spices and herbs
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="one-img position-relative border border-5 border-white rounded-1 pic7"
+        >
+          <img class="w-100 h-100" src="./assets/meal-7.jpg" alt="" />
+          <div class="layer w-100 h-100 position-absolute">
+            <h2>Frittata</h2>
+            <p class="p-2 text-center">
+              Frittata or potato pie in a ceramic plate
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div
+      class="section contact pb-5 d-flex flex-column justify-content-center align-items-center"
+      id="contact"
+    >
+      <div class="title pt-4 text-center">
+        <h6 class="tertiary-color">CONTACT</h6>
+        <p class="amatic-sc-regular fs-1">
+          NEED HELP? <span class="mealify-color">CONTACT US</span>
+        </p>
+      </div>
+
+      <div class="map w-75 mb-3">
+        <iframe
+          class="w-100"
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24194.82834800436!2d-74.006138!3d40.710233!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1714954480621!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="contact-infos w-75 row align-content-center m-5">
+        <div
+          class="one-contact-info d-flex align-items-center col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border border-5 border-white"
+        >
+          <div
+            class="contact-icon rounded-circle me-3 col-1 d-flex justify-content-center align-items-center"
+          >
+            <i class="fs-4 fa-solid fa-map"></i>
+          </div>
+          <div class="info">
+            <h2 class="tertiary-color">Our Address</h2>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+        </div>
+        <div
+          class="one-contact-info d-flex align-items-center col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border border-5 border-white"
+        >
+          <div
+            class="contact-icon rounded-circle me-3 col-1 d-flex justify-content-center align-items-center"
+          >
+            <i class="fs-4 fa-solid fa-envelope"></i>
+          </div>
+          <div class="info">
+            <h2 class="tertiary-color">Email Us</h2>
+            <a href="">contact@example.com</a>
+          </div>
+        </div>
+        <div
+          class="one-contact-info d-flex align-items-center col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border border-5 border-white"
+        >
+          <div
+            class="contact-icon rounded-circle me-3 col-1 d-flex justify-content-center align-items-center"
+          >
+            <i class="fs-4 fa-solid fa-phone"></i>
+          </div>
+          <div class="info">
+            <h2 class="tertiary-color">Call Us</h2>
+            <p>+1 5589 55488 55</p>
+          </div>
+        </div>
+        <div
+          class="one-contact-info d-flex align-items-center col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border border-5 border-white"
+        >
+          <div
+            class="contact-icon rounded-circle me-3 col-1 d-flex justify-content-center align-items-center"
+          >
+            <i class="fs-4 fa-solid fa-share-nodes"></i>
+          </div>
+          <div class="info">
+            <h2 class="tertiary-color">Opening Hours</h2>
+            <p>
+              <span>Mon-Sat:</span> 11AM - 23PM;<span> Sunday :</span> Closed
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="send-message p-3 gap-1 shadow w-75 text-center d-flex justify-content-center align-items-center"
+      >
+        <form action="">
+          <div class="form-field w-100 pb-2 row pt-4">
+            <div class="row col-12 m-0 p-0">
+              <div
+                class="message-fields col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12"
+              >
+                <input
+                  class="border border-1 border-secondary rounded w-100"
+                  type="text"
+                  id="name"
+                  name="Name"
+                  required
+                  placeholder="Your Name"
+                />
+                <label class="w-100" for="name"></label>
+              </div>
+              <div
+                class="message-fields col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12"
+              >
+                <input
+                  class="border border-1 border-secondary rounded w-100"
+                  type="email"
+                  id="email"
+                  name="Email"
+                  required
+                  placeholder="Your Email"
+                />
+                <label class="w-50" for="email"></label>
+              </div>
+            </div>
+            <div class="message-fields col-12">
+              <input
+                class="border border-1 border-secondary rounded w-100"
+                type="text"
+                id="subject"
+                name="Subject"
+                required
+                placeholder="Subject"
+              />
+              <label class="w-100" for="subject"></label>
+            </div>
+            <div class="message-fields col-12">
+              <textarea
+                placeholder="Message"
+                name="message"
+                class="w-100"
+              ></textarea>
+            </div>
+          </div>
+          <button class="w-25 rounded-pill text-light fw-bold">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer text-light p-5 row">
+      <div
+        class="social col-3 d-flex flex-column justify-content-evenly align-items-start"
+      >
+        <div class="the-title d-flex justify-content-start align-items-center">
+          <div class="title-img me-2">
+            <img src="./assets/favicon.png" alt="" />
+          </div>
+          <h3 class="pt-1">Mealify<span>.</span></h3>
+        </div>
+
+        <div class="pg">
+          <p>
+            Mealify is a restaurant landing page that offers a delicious dining
+            experience to its customers.
+          </p>
+        </div>
+
+        <div class="links text-center w-100 position-relative">
+          <div class="link-title"><p class="fs-5 fw-bold">Social Media</p></div>
+          <div class="link-icons d-flex justify-content-around fs-4 mt-3">
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="subscribe col-6">
+        <h4>Subscribe our Newsletter</h4>
+        <p>
+          Don't miss out on our latest menu updates and exclusive offers - join
+          our newsletter today and stay up-to-date with all things Mealify!
+        </p>
+
+        <form action="">
+          <div class="subscribtion-form row p-2 pt-0 mb-2 gap-1">
+            <input
+              class="col-9 border-0"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button
+              class="col-2 d-flex justify-content-center align-items-center gap-1 p-1 border-0 text-light"
+              type="submit"
+            >
+              <i class="fs-4 fa-solid fa-envelope"></i>
+              Subscribe
+            </button>
+          </div>
+        </form>
+
+        <div class="quick-links">
+          <h5>Quick Links</h5>
+
+          <div class="links-list">
+            <ul class="ps-4 row">
+              <li class="col-6 ps-1">
+                <a href=""> Menu </a>
+              </li>
+              <li class="col-6 ps-1">
+                <a href=""> Promo </a>
+              </li>
+              <li class="col-6 ps-1">
+                <a href=""> About us </a>
+              </li>
+              <li class="col-6 ps-1">
+                <a href=""> Contact </a>
+              </li>
+              <li class="col-6 ps-1">
+                <a href=""> Testimonial </a>
+              </li>
+              <li class="col-6 ps-1">
+                <a href=""> Our Partenrs </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="get-in-touch col-3">
+        <h4>Get in Touch</h4>
+
+        <div class="links-again">
+          <div class="each-link gap-3 d-flex justify-content-start">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="ms-3 position-relative">
+              A108 Adam Street, New York, NY 535022
+            </p>
+          </div>
+          <div class="each-link gap-3 d-flex justify-content-start mb-3">
+            <i class="fa-solid fa-envelope"></i>
+            <a class="ms-2 position-relative" href="mailto:contact@example.com"
+              >contact@example.com</a
+            >
+          </div>
+          <div class="each-link gap-3 d-flex justify-content-start">
+            <i class="fa-solid fa-phone"></i>
+            <p class="ms-1 position-relative">+1 5589 55488 55</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js files/bootstrap.min.js"></script>
+  </body>
+</html>
